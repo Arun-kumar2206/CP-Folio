@@ -34,6 +34,75 @@
     </header>
 
     <main>
+      <section class="main-section">
+        <div class="shell">
+          <h1 class="section-title">Progress Stats</h1>
+          <p class="section-lead">Live counts pulled from your CP-CODE workspace.</p>
+          <div class="stats-grid" id="stats-grid">
+            <article class="stat-card">
+              <div class="stat-card__label">Total problems solved</div>
+              <div class="stat-card__value" id="stat-total-problems">0</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-card__label">Practice problems</div>
+              <div class="stat-card__value" id="stat-practice-problems">0</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-card__label">Contest problems</div>
+              <div class="stat-card__value" id="stat-contest-problems">0</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-card__label">Sprint problems</div>
+              <div class="stat-card__value" id="stat-sprint-problems">0</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-card__label">Virtual contest problems</div>
+              <div class="stat-card__value" id="stat-virtual-problems">0</div>
+            </article>
+            <a class="stat-card stat-card--cf" id="cf-profile-link" href="#" target="_blank" rel="noreferrer noopener" aria-label="Open Codeforces profile">
+              <div class="stat-card__label">Codeforces profile</div>
+              <div class="stat-card__value stat-card__value--cf">Open</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section">
+        <div class="shell">
+          <h2 class="section-title">Recent Problems</h2>
+          <p class="section-lead">Most recent problems by category.</p>
+          <div class="recent-grid">
+            <article class="recent-block">
+              <header class="recent-block__header">Practice</header>
+              <ul class="recent-list" id="recent-practice"></ul>
+              <div class="recent-block__footer">
+                <a class="button button--ghost recent-more" href="./pages/practise.html">View all</a>
+              </div>
+            </article>
+            <article class="recent-block">
+              <header class="recent-block__header">Contests</header>
+              <ul class="recent-list" id="recent-contests"></ul>
+              <div class="recent-block__footer">
+                <a class="button button--ghost recent-more" href="./pages/contests.html">View all</a>
+              </div>
+            </article>
+            <article class="recent-block">
+              <header class="recent-block__header">Virtual Contests</header>
+              <ul class="recent-list" id="recent-virtual"></ul>
+              <div class="recent-block__footer">
+                <a class="button button--ghost recent-more" href="./pages/virtual-contests.html">View all</a>
+              </div>
+            </article>
+            <article class="recent-block">
+              <header class="recent-block__header">Sprints</header>
+              <ul class="recent-list" id="recent-sprints"></ul>
+              <div class="recent-block__footer">
+                <a class="button button--ghost recent-more" href="./pages/sprints.html">View all</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
