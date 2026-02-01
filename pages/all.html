@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contests | CP-Folio</title>
+    <title>All Problems | CP-Folio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/style.css">
 </head>
-<body data-page-title="Contests">
+<body data-page-title="All">
     <header class="site-header">
       <div class="shell">
         <div class="brand">
@@ -37,30 +37,21 @@
     <main>
       <section class="main-section">
         <div class="shell">
-          <h1 class="section-title">Contest Problems</h1>
-          <p class="section-lead">All contest solutions collected in one place.</p>
-
-          <h3 class="section-title" style="font-size:1.1rem; margin-top:0.75rem;">Contest Blocks</h3>
-          <div class="dir-grid" id="contest-section-grid"></div>
+          <h1 class="section-title">All Problems</h1>
+          <p class="section-lead">Every problem across practice, contests, sprints, and virtual contests.</p>
 
           <div class="stats-grid">
             <article class="stat-card">
-              <div class="stat-card__label">Problems done</div>
-              <div class="stat-card__value" id="contest-count">0</div>
+              <div class="stat-card__label">Total problems</div>
+              <div class="stat-card__value" id="all-count">0</div>
             </article>
           </div>
 
           <div class="search-row">
-            <input class="search-input" id="contest-search" type="search" placeholder="Search contest problems..." aria-label="Search contest problems">
+            <input class="search-input" id="all-search" type="search" placeholder="Search all problems..." aria-label="Search all problems">
           </div>
 
-          <div class="lang-block">
-            <header class="lang-block__header">Languages</header>
-            <div class="lang-bar" id="lang-contest"></div>
-            <ul class="lang-legend" id="legend-contest"></ul>
-          </div>
-
-          <div class="dir-grid" id="contest-grid"></div>
+          <div class="dir-grid" id="all-grid"></div>
         </div>
       </section>
     </main>

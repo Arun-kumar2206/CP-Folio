@@ -27,6 +27,7 @@
             <li class="nav__item"><a class="nav__link" href="./practise.html">Practice</a></li>
             <li class="nav__item"><a class="nav__link" href="./sprints.html">Sprints</a></li>
             <li class="nav__item"><a class="nav__link" href="./virtual-contests.html">Virtual Contests</a></li>
+            <li class="nav__item"><a class="nav__link" href="./all.html">All Problems</a></li>
             <li class="nav__item"><a class="nav__link" href="./Help.html">Help</a></li>
           </ul>
         </nav>
@@ -34,6 +35,34 @@
     </header>
 
     <main>
+      <section class="main-section">
+        <div class="shell">
+          <h1 class="section-title">Virtual Contest Problems</h1>
+          <p class="section-lead">Virtual contest attempts with quick access to each solution.</p>
+
+          <h3 class="section-title" style="font-size:1.1rem; margin-top:0.75rem;">Virtual Blocks</h3>
+          <div class="dir-grid" id="virtual-section-grid"></div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-card__label">Problems done</div>
+              <div class="stat-card__value" id="virtual-count">0</div>
+            </article>
+          </div>
+
+          <div class="search-row">
+            <input class="search-input" id="virtual-search" type="search" placeholder="Search virtual contest problems..." aria-label="Search virtual contest problems">
+          </div>
+
+          <div class="lang-block">
+            <header class="lang-block__header">Languages</header>
+            <div class="lang-bar" id="lang-virtual"></div>
+            <ul class="lang-legend" id="legend-virtual"></ul>
+          </div>
+
+          <div class="dir-grid" id="virtual-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">

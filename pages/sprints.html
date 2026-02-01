@@ -27,6 +27,7 @@
             <li class="nav__item"><a class="nav__link" href="./practise.html">Practice</a></li>
             <li class="nav__item"><a class="nav__link" href="./sprints.html">Sprints</a></li>
             <li class="nav__item"><a class="nav__link" href="./virtual-contests.html">Virtual Contests</a></li>
+            <li class="nav__item"><a class="nav__link" href="./all.html">All Problems</a></li>
             <li class="nav__item"><a class="nav__link" href="./Help.html">Help</a></li>
           </ul>
         </nav>
@@ -34,6 +35,34 @@
     </header>
 
     <main>
+      <section class="main-section">
+        <div class="shell">
+          <h1 class="section-title">Sprint Problems</h1>
+          <p class="section-lead">Sprint block submissions, ready to open in the viewer.</p>
+
+          <h3 class="section-title" style="font-size:1.1rem; margin-top:0.75rem;">Sprint Blocks</h3>
+          <div class="dir-grid" id="sprint-section-grid"></div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-card__label">Problems done</div>
+              <div class="stat-card__value" id="sprint-count">0</div>
+            </article>
+          </div>
+
+          <div class="search-row">
+            <input class="search-input" id="sprint-search" type="search" placeholder="Search sprint problems..." aria-label="Search sprint problems">
+          </div>
+
+          <div class="lang-block">
+            <header class="lang-block__header">Languages</header>
+            <div class="lang-bar" id="lang-sprint"></div>
+            <ul class="lang-legend" id="legend-sprint"></ul>
+          </div>
+
+          <div class="dir-grid" id="sprint-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">

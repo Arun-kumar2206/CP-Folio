@@ -27,6 +27,7 @@
             <li class="nav__item"><a class="nav__link" href="./practise.html">Practice</a></li>
             <li class="nav__item"><a class="nav__link" href="./sprints.html">Sprints</a></li>
             <li class="nav__item"><a class="nav__link" href="./virtual-contests.html">Virtual Contests</a></li>
+            <li class="nav__item"><a class="nav__link" href="./all.html">All Problems</a></li>
             <li class="nav__item"><a class="nav__link" href="./Help.html">Help</a></li>
           </ul>
         </nav>
@@ -34,6 +35,31 @@
     </header>
 
     <main>
+      <section class="main-section">
+        <div class="shell">
+          <h1 class="section-title">Practice Problems</h1>
+          <p class="section-lead">Browse every practice solution and jump straight into the code viewer.</p>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-card__label">Problems done</div>
+              <div class="stat-card__value" id="practice-count">0</div>
+            </article>
+          </div>
+
+          <div class="search-row">
+            <input class="search-input" id="practice-search" type="search" placeholder="Search practice problems..." aria-label="Search practice problems">
+          </div>
+
+          <div class="lang-block">
+            <header class="lang-block__header">Languages</header>
+            <div class="lang-bar" id="lang-practice"></div>
+            <ul class="lang-legend" id="legend-practice"></ul>
+          </div>
+
+          <div class="dir-grid" id="practice-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
