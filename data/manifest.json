@@ -72,6 +72,11 @@
       "meta": "CONTESTS/CONTEST-3/meta.json",
       "problems": [
         {
+          "path": "CONTESTS/CONTEST-3/Duck_Winner.py",
+          "label": "Duck_Winner.py",
+          "snippet": ""
+        },
+        {
           "path": "CONTESTS/CONTEST-3/round3_a.cs",
           "label": "round3_a.cs",
           "snippet": ""
